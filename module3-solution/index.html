@@ -20,7 +20,7 @@
         <div class="search">
             <input type="text" placeholder="search term" class="form-control" ng-model="menu.shortName">
             <div class="narrow-button">
-                <button class="btn btn-primary" ng-click="menu.matchedMenuItems(menu.shortName)"><i class="fa fa-search" aria-hidden="true"></i></button>
+                <button class="btn btn-primary"  ng-click="menu.matchedMenuItems(menu.shortName)"><i class="fa fa-search" aria-hidden="true"></i></button>
             </div>
         </div>
         <found-items found-items="menu.found" on-remove="menu.removeMenuItem(index)" on-empty="menu.message"></found-items>
